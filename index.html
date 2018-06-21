@@ -103,7 +103,33 @@
 
         <hr class="hr">
 
+        <fieldset>
+          <legend><h2>Newsletter</h2></legend>
+
+          <label>Select the newsletters you would like to recieve</label>
+          <input type="checkbox" id="htmlnews" value="html" name="user_newsletter"><label class="light" for="htmlnews">HTML News</label><br>
+          <input type="checkbox" id="cssnews" value="css" name="user_newsletter"><label class="light" for="cssnews">CSS News</label><br>
+          <input type="checkbox" id="javanews" value="javascript" name="user_newsletter"><label class="light" for="javanews">Javascript News</label>
+
+          <label class="newsletter">Newsletter format</label>
+
+          <input type="radio" id="html" value="htmlformat" name="user_format"><label class="light" for="html">HTML</label><br>
+          <input type="radio" id="plaintext" value="plain" name="user_format"><label class="light" for="plaintext">Plaintext</label>
+        </fieldset>
+
+        <div class="other">
+          <label for="other">Other topics you'd like to hear about</label>
+          <textarea id="other" name="user_other"></textarea>
+        </div>
+
+        <div class="sign-up">
+          <button type="submit">Sign Up</button>
+        </div>
+
       </form>
     </div> <!-- End of container div -->
+
+    <footer><em>Copyright The Code Review</em></footer>
+    
   </body>
 </html>
