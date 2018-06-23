@@ -49,6 +49,15 @@ select {
   font-size: 16px;
 }
 
+input:focus,
+select:focus,
+textarea:focus {
+  border: 2px solid #3a5b7c;
+  transition: all .5s ease-in;
+  background-color: #b8cef2;
+  transition: all .5s ease-in;
+}
+
 input[type="text"]::placeholder,
 input[type="telephone"]::placeholder {
   color: #b7b7b7;
@@ -112,6 +121,7 @@ footer {
   text-align: center;
   color: #3e444f;
   border-radius: 5px;
+  background-color: lavender;
 }
 
 .sub-header h3 {
